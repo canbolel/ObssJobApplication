@@ -18,7 +18,7 @@ public class PricingTest extends Elements{
         PageFactory.initElements(driver, this);
     }
 
-    public void chekingMonthlyPrice() throws InterruptedException {
+    public void chekingMonthlyPrice(){
 
         WebDriverWait wait = new WebDriverWait(driver, 5);
         Assert.assertEquals("https://obss.tech/tr/", driver.getCurrentUrl());
