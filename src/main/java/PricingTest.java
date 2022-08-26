@@ -42,7 +42,7 @@ public class PricingTest extends Elements{
     }
 
     public void switchTabs(){
-        ArrayList<String> newTb = new ArrayList<String>(driver.getWindowHandles());
+        ArrayList<String> newTb = new ArrayList<>(driver.getWindowHandles());
         driver.switchTo().window(newTb.get(1));
         logger.info("Tabs switched");
     }
